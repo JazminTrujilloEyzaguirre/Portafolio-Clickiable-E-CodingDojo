@@ -171,6 +171,7 @@ nav a{
     border-radius: 10px;
     padding: 45px 30px 60px 30px;
     transition: 0.5s;
+    text-align: center;
 }
 
 .articulo:hover{
@@ -200,8 +201,11 @@ nav a{
     color: #5D6678;
     margin-top: 15px;
     padding-bottom: 20px;
+    text-align: justify;
 }
-
+.progress{
+    margin-bottom: 20px;
+}
 .articulo>a{
     color: #5D6672;
     font-weight: 400;
@@ -209,7 +213,7 @@ nav a{
 }
 
 .articulo>a:hover{
-    color: #1FDE82;
+    color: #f27f59;
     transition: color .5s;
 }
 
@@ -273,24 +277,30 @@ nav a{
 }
 
 .numbers .number{
-    width: 45%;
+    width: 48%;
     background: rgba(255,255,255,.2);
     color: white;
     border-radius: 10px;
-    padding: 40px 35px;
+    padding: 30px 25px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .numbers .number h4{
-    font-size: 50px;
+    font-size: 25px;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-weight: 500;
 }
 
 .numbers .number p{
     color: white;
-    font-weight: 300;
+    font-weight: 100;
+    text-align: justify;
+}
+.numbers .number img{
+    width: 100%;
+    border-radius: 5px;
 }
 
 .results-text{
@@ -305,7 +315,7 @@ nav a{
 .results-text p{
     color:white;
     font-weight: 300;
-    margin: 20px 0;0
+    margin: 20px 0;
 }
 
 .results-text>a{
