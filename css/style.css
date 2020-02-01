@@ -1,4 +1,4 @@
-@import url(../fonts/Roboto/Roboto-Regular.ttf);
+
     
 *{
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family:'Roboto', sans-serif;
+    font-family:, sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -403,6 +403,9 @@ footer{
 .rrss h4{
     color: #5d6678;
 }
+.rrss a{
+    text-decoration: none;
+}
 .rrss i{
     font-size: 20px;
     display: inline-block;
@@ -423,4 +426,119 @@ footer{
     color: #fff;
     background-color: #15ade1;
     border-color: #15ade1;
+}
+
+@media screen and (max-width:900px){
+    .titulo{
+        font-size: 45px;
+    }
+    .contenido-header{
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        height: 720px;
+    }
+    .contenido-header img{
+        width: 400px;
+    }
+
+    .textos-header{
+        margin:0;
+    }
+
+    /*ABOUT-US*/
+
+    .articulo{
+        width: 45%;
+    }
+
+    /*Questions*/
+
+    .questions{
+        height: 720px;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .questions img{
+        height: 400px;
+    }
+
+      /* Result*/
+
+    .content-results{
+        flex-direction: column-reverse;
+    }
+
+    .results-text>a{
+        margin-bottom: 60px;
+    }
+    .numbers{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .results-text{
+        width: 100%;
+    }
+
+
+    /* Services*/
+
+    .ser{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ser img{
+        height: 400px;
+    }
+    .box-skills{
+        margin: 40 0 0px 0;
+    }
+}
+
+@media screen and (max-width:580px){
+     .enlaces-header{
+         display: none;
+     }
+     .hamburger{
+         display: block;
+     }
+     .nav{
+         padding: 0 10px;
+     }
+
+    /*HEADER*/
+    .titulo{
+        font-size: 36px;
+    }
+    .h1{
+        font-size: 40px;
+    }
+    .contenido-header img{
+        width: 350px;
+    }
+
+    /*Results*/
+
+    .numbers .number{
+        width: 95%;
+    }
+
+    /*ABOUT-US*/
+
+    .articulo{
+        width: 90%;
+    }
+
+    /*Questions*/
+
+    .questions img{
+        height: 200px;
+    }
+
+
+     /* Services*/
+    .ser img{
+        height: 200px;
+    }
 }

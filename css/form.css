@@ -1,4 +1,4 @@
-@import url(../fonts/Roboto/Roboto-Regular.ttf);
+
     
 *{
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family:'Roboto', sans-serif;
+    font-family: sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -50,7 +50,6 @@ nav{
     position: fixed;
     top:0;
     z-index: 100;
-    /* transition: ease-in-out 0.5s; */
 }
 .nav{
     display: flex;
@@ -90,7 +89,6 @@ nav a{
     text-align: center;
     z-index: 100;
     cursor: pointer;
-    /* transition: color 0.5s ease-in; */
 }
 
 .hamburger > i{
@@ -99,6 +97,7 @@ nav a{
 }
 
                                 /* Contenido header */
+                                
 .contenido-header{
     width: 100%;
     height: auto;
